@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
 
   etudiants:string[]=[];
   mesPosts:any[]=[];
+  displayed:boolean=true;
 
   nom:string="mon composant"
 
@@ -28,6 +29,10 @@ export class HomeComponent implements OnInit {
       }
     )
 
+  }
+
+  displayTable(){
+    this.displayed= ! this.displayed;
   }
 
 
