@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'amsAngular';
+  formateur="Achraf";
+  prix="450";
+  estHibryde:boolean=true;
+  bootCamp:string[]=["devOps","Spring Boot","Scrum","Angular"];
+
 }
